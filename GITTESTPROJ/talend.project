@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
-  <TalendProperties:Project xmi:id="_Sc48AZE7EeeNRM6Bqvw9Vg" label="GitTestProj" description="" language="java" technicalLabel="GITTESTPROJ" creationDate="2017-09-04T12:02:30.000+0530" author="_Sc48ApE7EeeNRM6Bqvw9Vg" productVersion="Talend Big Data Platform-6.2.1.20160704_1411" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/SunilPrabhakaraGitHub/TalendTestRepo.git&quot;,&quot;login&quot;:&quot;sunil.prabhakara@gmail.com&quot;,&quot;passwd&quot;:&quot;oziM3/VX1Kb9T+j8HyEKKw==&quot;,&quot;settings&quot;:&quot;001&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DQ">
+  <TalendProperties:Project xmi:id="_Sc48AZE7EeeNRM6Bqvw9Vg" label="GitTestProj" description="" language="java" technicalLabel="GITTESTPROJ" creationDate="2017-09-04T12:02:30.000+0530" author="_Sc48ApE7EeeNRM6Bqvw9Vg" productVersion="Talend Big Data Platform-6.2.1.20160704_1411" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/SunilPrabhakaraGitHub/TalendTestRepo.git&quot;,&quot;login&quot;:&quot;sunil.prabhakara@gmail.com&quot;,&quot;passwd&quot;:&quot;oziM3/VX1Kb9T+j8HyEKKw==&quot;,&quot;settings&quot;:&quot;001&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DQ" itemsRelationVersion="1.3">
+    <technicalStatus xmi:id="_VOIUkJE7EeeNRM6Bqvw9Vg" label="development" code="DEV"/>
+    <technicalStatus xmi:id="_VOIUkZE7EeeNRM6Bqvw9Vg" label="testing" code="TEST"/>
+    <technicalStatus xmi:id="_VOIUkpE7EeeNRM6Bqvw9Vg" label="production" code="PROD"/>
+    <documentationStatus xmi:id="_VOC1AJE7EeeNRM6Bqvw9Vg" label="unchecked" code="UCK"/>
+    <documentationStatus xmi:id="_VOC1AZE7EeeNRM6Bqvw9Vg" label="checked" code="CHK"/>
+    <documentationStatus xmi:id="_VOC1ApE7EeeNRM6Bqvw9Vg" label="validated" code="VAL"/>
     <migrationTask xmi:id="_VNbJ8JE7EeeNRM6Bqvw9Vg" id="org.talend.repository.localprovider.RemoveRoutineFolderTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_VNbJ8ZE7EeeNRM6Bqvw9Vg" id="org.talend.repository.localprovider.model.migration.ChangeXmiSerialization" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_VNbJ8pE7EeeNRM6Bqvw9Vg" id="org.talend.repository.model.migration.CleanFoldersMigrationTask" breaks="5.1.1" version="5.1.2" status="ok"/>
@@ -19,4 +25,7 @@
     <migrationTask xmi:id="_VNbJ_5E7EeeNRM6Bqvw9Vg" id="org.talend.designer.maven.ui.ConfigMavenRepositoryRemove" breaks="6.0.1" version="6.0.2" status="ok"/>
   </TalendProperties:Project>
   <TalendProperties:User xmi:id="_Sc48ApE7EeeNRM6Bqvw9Vg" login="Operator@company.com" firstName="Operator" lastName="Ope" type="DQ" additionnalData="{}"/>
+  <TalendProperties:User xmi:id="_VON0IJE7EeeNRM6Bqvw9Vg" login="GitUser@company.com" firstName="GitUser" lastName="User" type="DQ" additionnalData="{}">
+    <projectAuthorization href="../C:/Talend/BigData6.2.1/studio/#/2"/>
+  </TalendProperties:User>
 </xmi:XMI>
