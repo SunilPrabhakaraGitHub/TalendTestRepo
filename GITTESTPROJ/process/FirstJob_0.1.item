@@ -119,7 +119,7 @@
       <elementValue elementRef="ARRAY" value="Numeric.random(0 ,100 )"/>
     </elementParameter>
     <elementParameter field="EXTERNAL" name="MAP" value=""/>
-    <elementParameter field="TEXT" name="LABEL" value="ChangedMaster"/>
+    <elementParameter field="TEXT" name="LABEL" value="ChangedMasterNowNew"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tRowGenerator_1">
       <column comment="" defaultValue="" key="false" length="-1" name="newColumn" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
