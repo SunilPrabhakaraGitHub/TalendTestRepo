@@ -290,6 +290,7 @@
       <relatedItems xmi:id="_Vwu135IAEeeHB9XwlRsXnA" id="DQTechnical" version="Latest" type="routine"/>
       <relatedItems xmi:id="_Vwu14JIAEeeHB9XwlRsXnA" id="DataQualityDependencies" version="Latest" type="routine"/>
       <relatedItems xmi:id="_cArw8JIAEeeHB9XwlRsXnA" id="_rH5dIJH_EeeHB9XwlRsXnA" version="Latest" type="job"/>
+      <relatedItems xmi:id="_451XcJIJEeeHB9XwlRsXnA" id="_stQs4JIJEeeHB9XwlRsXnA" version="Latest" type="joblet"/>
     </ItemsRelations>
     <ItemsRelations xmi:id="_xWBAsJIJEeeHB9XwlRsXnA">
       <baseItem xmi:id="_xWBAsZIJEeeHB9XwlRsXnA" id="_stQs4JIJEeeHB9XwlRsXnA" version="0.1" type="joblet"/>
