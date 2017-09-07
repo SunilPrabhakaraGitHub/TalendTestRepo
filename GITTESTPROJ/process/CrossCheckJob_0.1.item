@@ -185,9 +185,9 @@
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tJavaRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="640" posY="160">
+  <node componentName="tJavaRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="608" posY="160">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJavaRow_1" show="false"/>
-    <elementParameter field="MEMO_JAVA" name="CODE" value="//Code generated according to input schema and output schema&#xD;&#xA;output_row.ComponentName = input_row.ComponentName;&#xD;&#xA;output_row.Label = input_row.Label;&#xD;&#xA;output_row.Col = input_row.Col;&#xA;String StrA=row2.ComponentName;&#xA;String StrB=row2.Col;&#xA;&#xA;System.out.println(&quot;CName: &quot;+StrA+&quot; Value: &quot;+StrB);&#xA;&#xA;if (StrA.contains(&quot;_&quot;))) {&#xA; output_row.Check = &quot;Error Naming Convension&quot;;&#xA;}else {&#xA; output_row.Check = &quot;Naming Convension has Passed...&quot;;&#xA;}&#xA;&#xD;&#xA;"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="//Code generated according to input schema and output schema&#xD;&#xA;output_row.ComponentName = input_row.ComponentName;&#xD;&#xA;output_row.Label = input_row.Label;&#xD;&#xA;output_row.Col = input_row.Col;&#xA;String StrA=row2.ComponentName;&#xA;String StrB=row2.Col;&#xA;&#xA;System.out.println(&quot;CName: &quot;+StrA+&quot; Value: &quot;+StrB);&#xA;&#xA;if (StrA.contains(&quot;_&quot;)) {&#xA; output_row.Check = &quot;Error Naming Convension&quot;;&#xA;}else {&#xA; output_row.Check = &quot;Naming Convension has Passed...&quot;;&#xA;}&#xA;&#xD;&#xA;"/>
     <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;&#xA;import java.io.*;&#xA;import java.lang.*;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJavaRow_1">
