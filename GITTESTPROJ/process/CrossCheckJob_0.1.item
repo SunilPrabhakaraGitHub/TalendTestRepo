@@ -187,7 +187,7 @@
   </node>
   <node componentName="tJavaRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="640" posY="160">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJavaRow_1" show="false"/>
-    <elementParameter field="MEMO_JAVA" name="CODE" value="//Code generated according to input schema and output schema&#xD;&#xA;output_row.ComponentName = input_row.ComponentName;&#xD;&#xA;output_row.Label = input_row.Label;&#xD;&#xA;output_row.Col = input_row.Col;&#xA;if ( row2.ComponentName.contains(row2.Col) ) {&#xA; output_row.Check = &quot;Error Naming Convension&quot;;&#xA;}else {&#xA; output_row.Check = &quot;Naming Convension has Passed...&quot;;&#xA;}&#xA;&#xD;&#xA;"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="//Code generated according to input schema and output schema&#xD;&#xA;output_row.ComponentName = input_row.ComponentName;&#xD;&#xA;output_row.Label = input_row.Label;&#xD;&#xA;output_row.Col = input_row.Col;&#xA;&#xA;if (row2.ComponentName.contains(row2.Col)) {&#xA; output_row.Check = &quot;Error Naming Convension&quot;;&#xA;}else {&#xA; output_row.Check = &quot;Naming Convension has Passed...&quot;;&#xA;}&#xA;&#xD;&#xA;"/>
     <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;&#xA;import java.io.*;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJavaRow_1">
