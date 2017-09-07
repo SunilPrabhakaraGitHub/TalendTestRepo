@@ -40,7 +40,7 @@ public class ReviewCode {
     }
     public static String ReviewComponents(String CompName,String CompParam,String CompValue) {
     	//if (CompParam.trim().equals("UNIQUE_NAME   ")) {
-    	System.out.println(CompName+","+CompParam+","+CompValue);
+    	//System.out.println(CompName+","+CompParam+","+CompValue);
     		if (CompName.contains(CompValue) && !CompValue.isEmpty()) {
     			 System.out.println("ERROR: Please Rename the Component to meaningful naming convention...");
     			 return "ERROR: Please Rename the Component to meaningful naming convention...";
