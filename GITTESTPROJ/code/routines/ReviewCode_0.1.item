@@ -42,6 +42,7 @@ public class ReviewCode {
     	if (CompParam.equals("UNIQUE_NAME")) {
     		if (CompName.startsWith(CompValue)) {
     			 System.out.println("ERROR: Please Rename the Component to meaningful naming convention...");
+    			 return "ERROR: Please Rename the Component to meaningful naming convention...";
     		}
     	}
     	return "INFO : Naming Convention has ben followed for "+CompValue;
