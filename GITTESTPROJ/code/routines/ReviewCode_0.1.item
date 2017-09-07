@@ -39,7 +39,7 @@ public class ReviewCode {
         System.out.println("Hello " + message + " !"); //$NON-NLS-1$ //$NON-NLS-2$
     }
     public static String ReviewComponents(String CompName,String CompParam,String CompValue) {
-    	if (CompParam.trim().equals("UNIQUE_NAME")) {
+    	if (CompParam.trim().equals("UNIQUE_NAME                          ")) {
     		if (CompName.startsWith(CompValue)) {
     			 System.out.println("ERROR: Please Rename the Component to meaningful naming convention...");
     			 return "ERROR: Please Rename the Component to meaningful naming convention...";
