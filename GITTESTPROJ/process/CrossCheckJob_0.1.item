@@ -117,10 +117,10 @@
     <elementParameter field="TEXT" name="LOOP_QUERY" value="&quot;talendfile:ProcessType/node/elementParameter&quot;"/>
     <elementParameter field="TABLE" name="MAPPING">
       <elementValue elementRef="SCHEMA_COLUMN" value="Col"/>
-      <elementValue elementRef="QUERY" value="&quot;@value&quot;"/>
+      <elementValue elementRef="QUERY" value="'@value'"/>
       <elementValue elementRef="NODECHECK" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="ComponentName"/>
-      <elementValue elementRef="QUERY" value="&quot;.../@componentName&quot;"/>
+      <elementValue elementRef="QUERY" value="'../@componentName'"/>
       <elementValue elementRef="NODECHECK" value="false"/>
     </elementParameter>
     <elementParameter field="TEXT" name="LIMIT" value=""/>
