@@ -233,7 +233,7 @@
         <mapperTableEntries name="ComponentName" expression="row2.ComponentName " type="id_String" nullable="true"/>
         <mapperTableEntries name="Label" expression="row2.Label " type="id_String" nullable="true"/>
         <mapperTableEntries name="Col" expression="row2.Col " type="id_String" nullable="true"/>
-        <mapperTableEntries name="ValidateBool" expression="row2.Col.length()-row2.ComponentName.length() == 2 ? &quot;Error in Naming Convention&quot; : &quot;Naming Convension looks fine&quot; " type="id_String" nullable="true"/>
+        <mapperTableEntries name="ValidateBool" expression="row2.Col.length()-row2.ComponentName.length() == 2 ? &quot;Provide proper Naming Convention for Components&quot; : &quot;Naming Convension looks fine&quot; " type="id_String" nullable="true"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="row2" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
         <mapperTableEntries name="ComponentName" type="id_String" nullable="true"/>
