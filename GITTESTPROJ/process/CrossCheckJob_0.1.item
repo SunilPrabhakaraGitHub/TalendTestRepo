@@ -136,7 +136,7 @@
   </node>
   <node componentName="tFileInputXML" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="224" posY="160">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tFileInputXML_1" show="false"/>
-    <elementParameter field="FILE" name="FILENAME" value="((String)globalMap.get(&quot;tFileList_1_CURRENT_FILEPATH&quot;))"/>
+    <elementParameter field="FILE" name="FILENAME" value="&quot;C:/Talend/BigData6.2.1/studio/workspace/ChangedProj/parentJobNew/GITTESTPROJ/process/parentJob_0.1.item&quot;"/>
     <elementParameter field="TEXT" name="LOOP_QUERY" value="&quot;talendfile:ProcessType/node/elementParameter&quot;"/>
     <elementParameter field="TABLE" name="MAPPING">
       <elementValue elementRef="SCHEMA_COLUMN" value="ComponentName"/>
@@ -226,7 +226,7 @@
       <column comment="" key="false" length="-1" name="ValidateBool" nullable="true" pattern="" precision="-1" sourceType="" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
     <nodeData xsi:type="MapperData">
-      <uiProperties shellMaximized="true"/>
+      <uiProperties/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
       <outputTables sizeState="INTERMEDIATE" name="outCheck">
         <mapperTableEntries name="FileName" expression="((String)globalMap.get(&quot;tFileList_1_CURRENT_FILE&quot;)) " type="id_String" nullable="true"/>
