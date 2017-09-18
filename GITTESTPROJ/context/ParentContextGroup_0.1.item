@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<talendfile:ContextType xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:id="_j7XA4JxmEeepQ6r3oGuy9w" confirmationNeeded="false" name="Dev">
+  <contextParameter xmi:id="_j7XA4ZxmEeepQ6r3oGuy9w" comment="" name="PCont1" prompt="PCont1?" promptNeeded="false" type="id_String" value="&quot;PContext Variable1&quot;"/>
+  <contextParameter xmi:id="_j7XA4pxmEeepQ6r3oGuy9w" comment="" name="PCont2" prompt="PCont2?" promptNeeded="false" type="id_String" value="&quot;PContext Variable2&quot;"/>
+</talendfile:ContextType>
