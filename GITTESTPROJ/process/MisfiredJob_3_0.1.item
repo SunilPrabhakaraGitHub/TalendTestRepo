@@ -199,7 +199,7 @@
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="row1" show="false"/>
   </connection>
   <connection connectorName="RUN_IF" label="If" lineStyle="6" metaname="tFileOutputDelimited_1" offsetLabelX="0" offsetLabelY="0" source="tFileOutputDelimited_1" target="tDie_1">
-    <elementParameter field="MEMO_JAVA" name="CONDITION" value="context.PassFail==&quot;Pass&quot;"/>
+    <elementParameter field="MEMO_JAVA" name="CONDITION" value="context.PassFail.equals(&quot;Pass&quot;)"/>
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="If1" show="false"/>
   </connection>
   <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tSleep_1" offsetLabelX="0" offsetLabelY="0" source="tSleep_1" target="tFixedFlowInput_1">
