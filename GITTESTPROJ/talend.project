@@ -631,6 +631,7 @@
       <relatedItems xmi:id="_ZqzRUqQgEeecK_K5izhM_g" id="DataQualityDependencies" version="Latest" type="routine"/>
       <relatedItems xmi:id="_ZqzRU6QgEeecK_K5izhM_g" id="ReviewCode" version="Latest" type="routine"/>
     </ItemsRelations>
+    <deletedFolders>process/Case00081292</deletedFolders>
     <migrationTask xmi:id="_VNbJ8JE7EeeNRM6Bqvw9Vg" id="org.talend.repository.localprovider.RemoveRoutineFolderTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_VNbJ8ZE7EeeNRM6Bqvw9Vg" id="org.talend.repository.localprovider.model.migration.ChangeXmiSerialization" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_VNbJ8pE7EeeNRM6Bqvw9Vg" id="org.talend.repository.model.migration.CleanFoldersMigrationTask" breaks="5.1.1" version="5.1.2" status="ok"/>
