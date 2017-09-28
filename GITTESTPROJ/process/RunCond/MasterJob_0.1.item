@@ -176,7 +176,7 @@
   </node>
   <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="576" posY="64">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tJava_1" show="false"/>
-    <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println(&quot;Context Var : &quot;+context.FlowVar);"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println(&quot;Context Var : &quot;+context.FlowVar);&#xA;&#xA;if (context.FlowVar) {&#xA;    System.out.println(&quot;RUN : Will execute SubJob 2...&quot;);&#xA;} else {&#xA; System.out.println(&quot;NO RUN : Will not be executing SubJob 2...&quot;);&#xA;}"/>
     <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tJava_1"/>
