@@ -347,4 +347,6 @@
   <TalendProperties:User xmi:id="_vNE2YtBTEeenxsmGgF9QZg" login="admin@company.com" firstName="admin" lastName="admin" type="DI" additionnalData="{}"/>
   <TalendProperties:User xmi:id="_waN-8NBTEeenxsmGgF9QZg" login="dev@talhp.com" firstName="dev" lastName="d" type="DQ" additionnalData="{}"/>
   <TalendProperties:User xmi:id="_DK86EdBUEee7S-sPuxwSJw" login="user@talend.com"/>
+  <TalendProperties:User xmi:id="__AwVEdBUEee3D4uD3wAmhg" login="Op@talhp.com" firstName="op" lastName="o" type="DQ" additionnalData="{}"/>
+  <TalendProperties:User xmi:id="__AwVEtBUEee3D4uD3wAmhg" login="de@talhp.com" firstName="d" lastName="e" type="DQ" additionnalData="{}"/>
 </xmi:XMI>
